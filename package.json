@@ -4,8 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "compile": "sass src/css/index.scss build/css/index.css",
+    "compile:watch": "sass --watch src/css/index.scss build/css/index.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.25.0"
+  }
 }
