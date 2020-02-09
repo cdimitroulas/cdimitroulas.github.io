@@ -1,0 +1,20 @@
+$bg-color: #282828;
+$primary-color: #458588;
+$secondary-color: #98971a;
+$accent-color: #d79921;
+$text-color: #fbf1c7;
+
+body {
+  background-color: $bg-color;
+  color: $text-color;
+  font-size: 14px;
+}
+
+.heading {
+  color: $primary-color;
+}
+
+.link {
+  color: $accent-color;
+  text-decoration: none;
+}
