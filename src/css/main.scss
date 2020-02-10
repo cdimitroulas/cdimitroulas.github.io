@@ -1,12 +1,25 @@
 body {
   background-color: $bg-color;
   color: $text-color;
+  font-family: 'Fira Mono', monospace;
   font-size: 14px;
+}
+
+header {
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+  }
 }
 
 main {
   max-width: 900px;
   margin: 0 auto;
+}
+
+section {
+  @extend .pt-4;
+  @extend .pb-4;
 }
 
 .heading {
