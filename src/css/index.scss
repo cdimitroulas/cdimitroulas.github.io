@@ -1,5 +1,8 @@
 @import "variables.scss";
 
+@import "utilities/fonts.scss";
+@import "utilities/spacing.scss";
+
 @import "main.scss";
 @import "nav.scss";
-@import "spacing.scss";
+@import "content.scss";

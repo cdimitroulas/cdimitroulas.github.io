@@ -4,6 +4,11 @@ body {
   font-size: 14px;
 }
 
+main {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
 .heading {
   color: $primary-color;
 }
