@@ -1,11 +1,11 @@
 .section-header {
-  @extend .mb-4;
+  margin-bottom: $space5;
   @extend .text-lighter;
   @extend .fontsize-5;
 }
 
 .section-paragraph {
-  @extend .pb-2;
+  @extend .pb-4;
   @extend .text-lighter;
   @extend .fontsize-3;
 }
