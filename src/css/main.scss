@@ -5,20 +5,31 @@ body {
   font-size: 14px;
 }
 
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
 header {
   .container {
     max-width: $content-width;
     margin: 0 auto;
+    padding: 60px 0;
+  }
+
+  h1 {
+    @extend .mt-5;
+    @extend .mb-5;
+  }
+
+  p {
+    font-size: $space4;
   }
 }
 
 main {
   max-width: $content-width;
   margin: 0 auto;
-}
-
-p {
-  margin: 0;
 }
 
 section {
@@ -33,4 +44,9 @@ section {
 .link {
   color: $accent-color;
   text-decoration: none;
+}
+
+footer {
+  padding: $space6 $space4 $space2;
+  text-align: right;
 }
