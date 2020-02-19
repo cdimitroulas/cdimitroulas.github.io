@@ -9,3 +9,14 @@
   @extend .text-lighter;
   @extend .fontsize-3;
 }
+
+.content-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-image {
+  max-width: calc(#{$content-width} / 2);
+  max-height: 480px;
+  border-radius: 2px;
+}
