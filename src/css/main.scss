@@ -48,6 +48,11 @@ section {
 .link {
   color: $accent-color;
   text-decoration: none;
+  transition: color 0.3s ease-in;
+
+  &:hover {
+    color: $accent-hover-color;
+  }
 }
 
 footer {
