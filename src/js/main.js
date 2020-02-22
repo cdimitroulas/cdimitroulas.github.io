@@ -11,7 +11,7 @@ function getPageHeight() {
   );
 }
 
-(function createLineNumbers () {
+function createLineNumbers() {
   const lineNumbersContainer = document.querySelector('#line-numbers');
 
   // Create an li and insert it into the DOM to figure out it's height
@@ -31,5 +31,14 @@ function getPageHeight() {
   lineNumbersContainer.innerHTML = html
 
   lineNumbersContainer.style = 'opacity: 0.4;'
-})()
+}
+
+if (document.fonts && documents.fonts.ready && typeof documents.fonts.ready.then === 'function') {
+  // Experimental browser API, not available in older browsers
+  document.fonts.ready.then(createLineNumbers)
+} else {
+  // if we don't wait for fonts to load, then the number of lines might be incorrectly calculated
+  // as the size of each line may be different once the font is loaded
+  createLineNumber()
+}
 
