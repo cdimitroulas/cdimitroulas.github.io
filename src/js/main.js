@@ -33,7 +33,7 @@ function createLineNumbers() {
   lineNumbersContainer.style = 'opacity: 0.4;'
 }
 
-if (document.fonts && documents.fonts.ready && typeof documents.fonts.ready.then === 'function') {
+if (document.fonts && document.fonts.ready && typeof document.fonts.ready.then === 'function') {
   // Experimental browser API, not available in older browsers
   document.fonts.ready.then(createLineNumbers)
 } else {

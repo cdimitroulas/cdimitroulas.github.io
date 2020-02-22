@@ -1,8 +1,18 @@
 .nav {
-  padding: $space2 $space4;
+  padding: $space2;
   text-align: right;
+
+  @media (min-width: $breakpoint3) {
+    padding: $space2 $space4;
+  }
   
   a {
-    font-size: $space4;
+    font-size: 12px;
+    padding-right: $space1;
+
+    @media (min-width: $breakpoint3) {
+      font-size: 20px;
+      padding-right: $space3;
+    }
   }
 }

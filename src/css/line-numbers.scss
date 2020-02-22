@@ -15,4 +15,10 @@
   list-style: none;
   text-align: right;
   transition: opacity 0.3s ease-in;
+
+  font-size: 10px;
+
+  @media (min-width: $breakpoint3) {
+    font-size: 14px;
+  }
 }
