@@ -45,7 +45,7 @@ section {
   color: $primary-color;
 }
 
-.link {
+.link, .link:visited, .link:active {
   color: $accent-color;
   text-decoration: none;
   transition: color 0.3s ease-in;

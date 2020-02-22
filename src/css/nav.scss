@@ -1,3 +1,8 @@
 .nav {
   padding: $space2 $space4;
+  text-align: right;
+  
+  a {
+    font-size: $space4;
+  }
 }
