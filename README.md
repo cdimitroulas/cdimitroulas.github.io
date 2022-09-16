@@ -1,6 +1,6 @@
 # Christos Dimitroulas Personal Website
 
-My personal website, made with a super the most minimal HTML/SCSS/JS possible.
+My personal website, made with the most minimal HTML/SCSS/JS possible.
 
 ## Compile Sass
 
